@@ -6,7 +6,6 @@ import os
 from Config.arguments import get_args ; args = get_args()
 
 config = {}
-
 config['data_list_dataprep'] = [('raw_data.csv', ['DC','SKU_ID'] ,'Date' , 
 ['DC',	'Date'] , "%Y-%m-%d" ,['all','map', 'Date', 'DC', 'SKU_ID' ,'Vol','train_test'])]
 
